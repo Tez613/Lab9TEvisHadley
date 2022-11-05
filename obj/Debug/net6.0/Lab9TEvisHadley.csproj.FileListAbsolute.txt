@@ -1,0 +1,15 @@
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\bin\Debug\net6.0\Lab9TEvisHadley.exe
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\bin\Debug\net6.0\Lab9TEvisHadley.deps.json
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\bin\Debug\net6.0\Lab9TEvisHadley.runtimeconfig.json
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\bin\Debug\net6.0\Lab9TEvisHadley.dll
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\bin\Debug\net6.0\Lab9TEvisHadley.pdb
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\obj\Debug\net6.0\Lab9TEvisHadley.csproj.AssemblyReference.cache
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\obj\Debug\net6.0\Lab9TEvisHadley.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\obj\Debug\net6.0\Lab9TEvisHadley.AssemblyInfoInputs.cache
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\obj\Debug\net6.0\Lab9TEvisHadley.AssemblyInfo.cs
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\obj\Debug\net6.0\Lab9TEvisHadley.csproj.CoreCompileInputs.cache
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\obj\Debug\net6.0\Lab9TEvisHadley.dll
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\obj\Debug\net6.0\refint\Lab9TEvisHadley.dll
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\obj\Debug\net6.0\Lab9TEvisHadley.pdb
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\obj\Debug\net6.0\Lab9TEvisHadley.genruntimeconfig.cache
+D:\Source\Repos\C#\Lab9\Lab9TEvisHadley\obj\Debug\net6.0\ref\Lab9TEvisHadley.dll
