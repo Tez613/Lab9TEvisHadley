@@ -12,34 +12,38 @@ while (Exit < 1)
     switch (choice)
     {
         case 1:
-        index =0;
+            index = 1;
             Console.Clear();
             foreach (String a in ToDo)
-                Console.WriteLine("To do item " + index++ + ": " +a);
-                index =1;
+                Console.WriteLine("To do item " + index++ + ": " + a);
+            index = 1;
+            Console.ForegroundColor = ConsoleColor.Green;
             foreach (String b in ToDoDone)
-                Console.WriteLine("To do item completed " + index++ + ": " +b);
+                Console.WriteLine("To do item completed " + index++ + ": " + b);
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
             break;
         case 2:
-        index =0;
+            index = 0;
             Console.Clear();
             foreach (String a in ToDo)
-                Console.WriteLine("To do item " + index++ + ": " +a);
+                Console.WriteLine("To do item " + index++ + ": " + a);
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
             break;
         case 3:
-        index =0;
+            index = 0;
             Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
             foreach (String b in ToDoDone)
-                Console.WriteLine("To do item completed " + index++ + ": " +b);
+                Console.WriteLine("To do item completed " + index++ + ": " + b);
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
             break;
         case 4:
-        index =0;
+            index = 0;
             DateTime StartTime = DateTime.Now;
             Console.Clear();
             Console.WriteLine("Please Write a name and a descriton for your to do item.");
@@ -47,25 +51,25 @@ while (Exit < 1)
             index++;
             break;
         case 5:
-        index =0;
-        
-            Console.WriteLine("please choose an item to mark as completed.");
+            index = 0;
+            Console.Clear();
+            Console.WriteLine("please choose an item to mark as completed by typing in its corresponding number.");
             DateTime FinishedTime = DateTime.Now;
             foreach (String a in ToDo)
-                Console.WriteLine("To do item " + index++ +": " +a);
-                int ListChoice = int.Parse(Console.ReadLine());
-                ToDoDone.Add(ToDo[ListChoice]+(": Finished on: ")+FinishedTime);
-                ToDo.RemoveAt(ListChoice);
+                Console.WriteLine("To do item " + index++ + ": " + a);
+            int ListChoice = int.Parse(Console.ReadLine());
+            ToDoDone.Add(ToDo[ListChoice] + (": Finished on: ") + FinishedTime);
+            ToDo.RemoveAt(ListChoice);
             break;
         case 6:
-        Console.Clear();
-        int ToDoSize = ToDo.Count;
-        int ToDoDoneSize = ToDoDone.Count;
-        int TotalSize = ToDoSize + ToDoDoneSize;
-        Console.WriteLine("Stats");
-        Console.WriteLine(" There are "+TotalSize+" total items \n There are "+ToDoSize+" items in To do \n there are "+ToDoDoneSize+" items that are done");
-        Console.WriteLine("Press anykey to continue");
-        Console.ReadKey();
+            Console.Clear();
+            int ToDoSize = ToDo.Count;
+            int ToDoDoneSize = ToDoDone.Count;
+            int TotalSize = ToDoSize + ToDoDoneSize;
+            Console.WriteLine("Stats");
+            Console.WriteLine(" There are " + TotalSize + " total items. \n There are " + ToDoSize + " items to do. \n there are " + ToDoDoneSize + " items that are done.");
+            Console.WriteLine("Press anykey to continue");
+            Console.ReadKey();
             break;
         case 7:
             Exit++;
