@@ -65,9 +65,20 @@ while (Exit < 1)
             else
             {
                 int ListChoice2 = int.Parse(ListChoice);
-                ToDoDone.Add(ToDo[ListChoice2] + (": Finished on: ") + FinishedTime);
-                ToDo.RemoveAt(ListChoice2);
+                if (ListChoice2 >= ToDo.Count)
+                {
+                    Console.WriteLine("That was not a valid option please try again. \nPress any key to continue.");
+                    Console.ReadKey();
+                    break;
+                }
+                else
+                {
+                    ToDoDone.Add(ToDo[ListChoice2] + (": Finished on: ") + FinishedTime);
+                    ToDo.RemoveAt(ListChoice2);
+                    break;
+                }
             }
+
             break;
         case "6":
             Console.Clear();
